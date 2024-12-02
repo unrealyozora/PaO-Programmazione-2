@@ -18,7 +18,7 @@ int main(){
     C x, y(1), z(2);
     const C v(2);
     int a=0, b=1, c=2, d=3, e=4;
-    a=(b++, c++, d++, e);
+    a=(b++, c++, d++, ++e);
     cout << "a= " << a << endl;
     cout << "a= " << a << endl;
 }
