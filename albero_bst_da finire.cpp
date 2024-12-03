@@ -22,7 +22,7 @@ class Nodo{
 };
 
 template <class T>
-ostream& operator<< ( ostream& os, Nodo<T>* p){
+ostream& operator<<  ( ostream& os, Nodo<T>* p){
     if (!p){
         os<< '@';
     }else{
@@ -33,7 +33,7 @@ ostream& operator<< ( ostream& os, Nodo<T>* p){
 
 template <class T>
 class AlbBinRic{
-    friend ostream& operator<< (ostream&, const AlbBinRic<T>&);
+    friend ostream& operator<<  (ostream&, const AlbBinRic<T>&);
     public:
         AlbBinRic(): radice(0) {};
         Nodo<T>* Find(T) const;
@@ -180,7 +180,3 @@ int main(){
 
     cout<< "Massimo: " << AlbBinRic<int>::Valore(a.Massimo()) << endl;
 }
-
-
-
-
