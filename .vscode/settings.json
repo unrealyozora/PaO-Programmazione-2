@@ -5,5 +5,8 @@
         "typeinfo": "cpp",
         "iostream": "cpp",
         "cmath": "cpp"
+    },
+    "files.exclude": {
+      "**/*.exe": true
     }
 }
