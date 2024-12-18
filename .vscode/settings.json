@@ -1,10 +1,11 @@
 {
     "files.associations": {
-        "ostream": "cpp",
-        "iosfwd": "cpp",
-        "typeinfo": "cpp",
-        "iostream": "cpp",
-        "cmath": "cpp"
+      "ostream": "cpp",
+      "iosfwd": "cpp",
+      "typeinfo": "cpp",
+      "iostream": "cpp",
+      "cmath": "cpp",
+      "qcoreapplication": "cpp"
     },
     "files.exclude": {
       "**/*.exe": true

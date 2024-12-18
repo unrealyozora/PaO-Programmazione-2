@@ -42,6 +42,7 @@ class Queue{
     private:
     QueueItem<T>* primo;
     QueueItem<T>* ultimo;
+    
 };
 
 int main(){
@@ -52,4 +53,5 @@ int main(){
         pi->add(i);
         cout << pi->remove();
     }
+    return 0;
 }
