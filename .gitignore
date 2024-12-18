@@ -5,6 +5,7 @@
 *.Debug
 *.Release
 *.o
+Makefile*
 #Excluding release and debug qmake folder
 release*
 debug*
