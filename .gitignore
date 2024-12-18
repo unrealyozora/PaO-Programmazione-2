@@ -1,2 +1,10 @@
 #Excluding exe files
 *.exe
+#Excluding build files
+*.stash
+*.Debug
+*.Release
+*.o
+#Excluding release and debug qmake folder
+release*
+debug*
