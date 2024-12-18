@@ -9,3 +9,7 @@ Makefile*
 #Excluding release and debug qmake folder
 release*
 debug*
+#Excluding VSCode and VS folders
+.idea
+.vs
+.vscode
